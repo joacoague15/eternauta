@@ -42,8 +42,8 @@ audio {
 }
 
 #modal {
-    width: 80vw;
-    height: 80vh;
+    width: 100vw;
+    height: 100vh;
     top: 50%;
     left: 50%;
     opacity: 0.8;
@@ -53,5 +53,5 @@ audio {
     color: white;
     font-family: "Comic Sans MS", serif;
     font-size: 48px;
-    border-radius: 10px;
+    border-radius: 100px;
 }
