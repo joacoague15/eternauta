@@ -15,7 +15,12 @@ const randomAudio = () => {
 }
 
 const speak = () => {
-    document.getElementById("snow-audio").play();
     document.getElementById("eternauta-audio").src = randomAudio();
     document.getElementById("eternauta-audio").play();
+}
+
+const playSnow = () => {
+    document.getElementById("modal").style.display = "none";
+    document.getElementById("snow-audio").play();
+    speak();
 }
