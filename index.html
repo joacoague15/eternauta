@@ -7,6 +7,12 @@
 </head>
 <body>
     <div class="fullscreen-video">
+        <input type="text" id="apiKey" placeholder="Insertá la API-key">
+        <div class="user-message">
+            <input type="text" id="user-question" placeholder="Hablale a Juan...">
+            <button id="send" onclick="eternautaResponds()">Enviar</button>
+        </div>
+        <p id="response"></p>
         <video autoplay loop muted>
             <source src="nieve.mp4" type="video/mp4">
         </video>
